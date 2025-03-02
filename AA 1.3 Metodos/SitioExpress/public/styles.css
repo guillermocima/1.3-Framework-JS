@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+    color: #333;
+}
+
+/* Estilo para las secciones de texto */
+section {
+    margin: -100px 0; /* Margen superior e inferior */
+    padding: 50px; /* Relleno interior */
+    background-color: white; /* Color de fondo */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+/* Estilo para el logo */
+.logo-superior-izquierdo img {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 20px; /* Distancia desde la parte superior */
+    left: 20px; /* Distancia desde la izquierda */
+    width: 120px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+/* Estilo para el logo */
+.logo-superior-derecho img {
+    position: absolute; /* Posicionamiento absoluto */
+    top: 20px; /* Distancia desde la parte superior */
+    left: 1300px; /* Distancia desde la izquierda */
+    width: 200px; /* Ancho de la imagen */
+    height: auto; /* Altura automática para mantener la proporción */
+}
+
+
+h1 {
+    text-align: center;
+    color: #444;
+}
+h2 {
+    text-align: center;
+    color: #444;
+    font-size: 2em;
+    
+}
+
+h3 {
+    text-align: center;
+    color: #444;
+    font-size: 1em;
+}
+
+/* Estilo para la sección blanca */
+.seccion-blanca {
+    background-color: white; /* Color de fondo blanco */
+    padding: 20px; /* Espacio interno */
+    margin: 20px auto; /* Margen exterior y centrado */
+    max-width: 800px; /* Ancho máximo del contenido */
+    border-radius: 10px; /* Bordes redondeados */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    text-align: justify; /* Justifica el texto */
+
+}
+
+nav {
+    text-align: center;
+    margin: 100px 0;
+    background: linear-gradient(90deg, #007BFF, #00BFFF); /* Gradiente azul */
+    padding: 40px 20px; /* Espacio interno (arriba/abajo y izquierda/derecha) */
+    color: white; /* Color del texto */
+}
+
+nav a {
+    text-decoration: none;
+    color: #555;
+    margin: 0 10px;
+    
+}
+
+nav a:hover {
+    color: #000;
+}
+
